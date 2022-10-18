@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="https://google.com" 
+    method="post">
+    <label for="name">
+Enter Name Here
+    </label><br>
+        <input 
+        type="text"
+        id="name"
+        placeholder="Enter Name Here"
+        required><br>
+        <hr>
+        <label for="email">
+            Enter Email Here
+                </label><br>
+        <input 
+        type="email"
+        id="email"
+        placeholder="Enter Email Here"
+        required><br>
+        <hr>
+        <label for="password">
+            Enter Password Here
+                </label><br>
+        <input
+        type="password"
+        id="password"
+        placeholder="Enter password"
+        required><br>
+        <hr>
+        <label for="password">
+            Confirm Password
+                </label><br>
+        <input
+        type="password"
+        id="confirm password"
+        placeholder="Confirm password"
+        required><br>
+        <hr>
+        <label>
+            Gender
+        </label><br>
+        <label>Male</label>
+        <input type="radio" value="male" name="gender" id="male">
+        <label>Female</label>
+        <input type="radio" value="female" name="gender" id="female"><br>
+        <hr>
+        <label>
+            Qualifications
+        </label><br>
+        <label for="bsc">BSc</label>
+        <input type="checkbox" name="qualifications" id="bsc" value="BSc">
+        <label for="msc">MSc</label>
+        <input type="checkbox" name="qualifications" id="msc" value="MSc">
+        <label for="phd">PhD</label>
+        <input type="checkbox" name="qualifications" id="phd" value="PhD"><br>
+        <hr>
+        <label for="cv">Upload CV</label>
+        <input type="file" name="" id="cv"><br>
+        <hr>
+        <label for="color">Colour</label>
+        <input type="color" name="" id="color"><br>
+        <hr>
+        <label for="date">Date</label>
+        <input type="date" name="" id="date"><br>
+        <hr>
+        <label for="country">
+            Nationality
+        </label>
+        <select id="country" name="" required>
+            <option value="">Select Your Country</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Canada">Canada</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Estonia">Estonia</option>
+        </select><br>
+        <hr>
+        <progress min="50" max="100" value="90">
+            50%
+        </progress>
+        <meter min="0" low="20" max="100" high="70" value="10">
+            50%
+        </meter><br>
+        <hr>
+        <label for="range">Range</label>
+        <input type="range" min="0" low="20" max="100" high="70">
+        <input 
+        type="submit"
+        value="Submit"
+        >
+        <button type="submit">
+            Register
+        </button>
+        <input type="reset" value="reset form">
+    </form>
+   
+</body>
+</html>

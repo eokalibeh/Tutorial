@@ -1,0 +1,50 @@
+.position-static{
+    position: static;
+    border: 10px solid #a11f9b;
+    font-size: 40px;
+}
+
+.position-relative{
+    position: relative;
+    border: 10px solid blue;
+    font-size: 40px;
+    top: 600px;
+    left: 80px;
+}
+
+.position-fixed{
+    position: fixed;
+    border: solid rgb(19, 107, 19);
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px;
+    background-color: aqua;
+    font-weight: 500;
+    border-radius: 50%;
+    height: 70px;
+    width: 80px;
+}
+
+.position-fixed span{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.position-sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* padding: 10; */
+    background-color: #9cb0b4;
+    border: 3px solid blueviolet;
+}
+.p{
+    font-size: 50px;
+    font: 400px;
+}
+
+.states{
+    color: #a11f9b;
+    display: inline;
+}

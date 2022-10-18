@@ -1,0 +1,41 @@
+#big{
+    font-size: 50px;
+    font-style: italic;
+    color: #105e10fb;
+    opacity: 0.5;
+ }
+ a{
+   text-decoration: line-through;
+   color: white;
+   
+
+ }
+p{
+   font-size: 40px;
+   font-family: 'Comic Sans Ms', Courier, monospace;
+   font-weight: 800;
+   font-style: italic;
+   text-align: left;
+   text-transform: capitalize;
+   text-overflow: ellipsis;
+  
+}
+ .hero{
+    color: #251414;
+    background-color: #25380c;
+    background-image: url('images/Lagos.jpg');
+    /* height: 600px; */
+    padding: 100px 120px 150px 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* border-width: 5px ;
+    border-color: #87ceeb;
+    border-style: dashed; */
+    border: 5px groove blueviolet;
+    border-radius: 20px 25px 30px 40px;
+ }
+
+ /* .content{
+   margin: 100px;
+ } */
