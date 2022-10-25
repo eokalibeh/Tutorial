@@ -15,7 +15,7 @@
 // // document.getElementById('demo').innerHTML = 'Dear ' + fname + ', wishing you a happy birthday'; 
 
 // var fname = 'Sade';
-// age = 20;
+// // age = 20;
 // date_of_birth = 2002;
 // total = age + date_of_birth;
 
@@ -63,7 +63,7 @@
 
 const person = {
     first_name:'Epiphany',
-    age: 18,
+    // age: 18,
     class: 'SS1',
     dob: 2000,
     current_year: 2022,
@@ -72,5 +72,86 @@ const person = {
         return `${this.first_name} is a man aged ${this.age} and he is in ${this.class}`
     }
 }
-document.write(person.current_age());
+// document.write(person.current_age());
 // document.write(person.first_name + '' + person.age)
+
+
+
+// function calcAge(p, _firstname){
+//    document.write(`My age is ${p} and my name is ${_firstname}`);
+// }
+//  calcAge(19, 'Epiphany');
+
+
+
+// function calcMath (q, r){
+//     document.write(`${q + r}`);
+// }
+// calcMath(10, 5);
+
+// const man = (q, r) => {
+//     document.write(q+r);
+// }
+// man(10, 5)
+
+// const man = (q, r) => q+r;
+// document.write(man(10,5))
+
+// const man = (q) => q;
+// document.write(man(10));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const bald = (q, r) => q+r;
+// document.write(bald(12,9))
+
+
+
+const students = ['star', 'freda', 'napoleon']
+// document.write(students[0])
+
+document.write(students[students.length - 1])
+
+
+const studentInfo = [
+    {
+        name: 'Star',
+        hobby: 'not coming to class'
+    },
+    {
+        name: 'Freda',
+        hobby: 'Disturbing in class',
+    },
+    {
+        name: 'Napoleon',
+        hobby: 'cracking dry jokes'
+    },
+]
+// document.write('<br>'+studentInfo[2].hobby)
+
+document.write('<br>'+students)
+
+
+let sentence=''
+for(let i = 10; i <= 100; i+=10){
+    sentence+= `'<br>'They are ${i} in class today'`;
+}
+
+document.write(sentence);
+
+
