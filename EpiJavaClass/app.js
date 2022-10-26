@@ -245,6 +245,12 @@
 // document.write(text2)
 
 
-let yep = "Mr Daniel is a facilitator at the DSiHub";
+let yep = "Mr Daniel is a facilitator at the DSiHub<br>";
  let newYep = yep.replace("Daniel", "Epiphany");
- document.write(newYep)
+ let Newpey = newYep.replace("facilitator", "trainee");
+ document.write(Newpey)
+
+ document.write(yep.indexOf('Daniel'));
+
+
+ 
