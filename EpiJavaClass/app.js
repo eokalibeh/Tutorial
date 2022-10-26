@@ -61,17 +61,17 @@
 
 // salutation ends
 
-const person = {
-    first_name:'Epiphany',
-    // age: 18,
-    class: 'SS1',
-    dob: 2000,
-    current_year: 2022,
-    current_age: function(){return `this man is aged ${this.current_year - this.dob} years old`},
-    description: function(){
-        return `${this.first_name} is a man aged ${this.age} and he is in ${this.class}`
-    }
-}
+// const person = {
+//     first_name: 'Epiphany',
+//     // age: 18,
+//     class: 'SS1',
+//     dob: 2000,
+//     current_year: 2022,
+//     current_age: function () { return `this man is aged ${this.current_year - this.dob} years old` },
+//     description: function () {
+//         return `${this.first_name} is a man aged ${this.age} and he is in ${this.class}`
+//     }
+// }
 // document.write(person.current_age());
 // document.write(person.first_name + '' + person.age)
 
@@ -122,36 +122,129 @@ const person = {
 
 
 
-const students = ['star', 'freda', 'napoleon']
-// document.write(students[0])
+// const students = ['star', 'freda', 'napoleon']
+// // document.write(students[0])
 
-document.write(students[students.length - 1])
-
-
-const studentInfo = [
-    {
-        name: 'Star',
-        hobby: 'not coming to class'
-    },
-    {
-        name: 'Freda',
-        hobby: 'Disturbing in class',
-    },
-    {
-        name: 'Napoleon',
-        hobby: 'cracking dry jokes'
-    },
-]
-// document.write('<br>'+studentInfo[2].hobby)
-
-document.write('<br>'+students)
+// document.write(students[students.length - 1])
 
 
-let sentence=''
-for(let i = 10; i <= 100; i+=10){
-    sentence+= `'<br>'They are ${i} in class today'`;
-}
+// // const studentInfo = [
+// //     {
+// //         name: 'Star',
+// //         hobby: 'not coming to class'
+// //     },
+// //     {
+// //         name: 'Freda',
+// //         hobby: 'Disturbing in class',
+// //     },
+// //     {
+// //         name: 'Napoleon',
+// //         hobby: 'cracking dry jokes'
+// //     },
+// ]
+// // document.write('<br>'+studentInfo[2].hobby)
 
-document.write(sentence);
+// document.write('<br>' + students)
 
 
+// let sentence = ''
+// for (let i = 10; i <= 100; i += 10) {
+//     sentence += `'<br>'They are ${i} in class today''<br>'`;
+// }
+
+// document.write(sentence);
+
+
+// // let text = "";
+// // for (let i = 0; i < 10; i++) {
+// //   if (i === 3) { break; }
+// //   document.write("'<br>'The number is " + i + "<br>");
+// // }
+
+
+// let text = "";
+// for (let i = 0; i < 10; i++) {
+//     if (i === 3) { continue; }
+//     document.write("'<br>'The number is " + i + "<br>");
+// }
+
+
+
+// const employees = [
+//     {
+//         name: 'Tobi',
+//         active: true,
+//         salary: 10000
+//     },
+//     {
+//         name: 'Mike',
+//         active: false,
+//         salary: 12000
+//     },
+//     {
+//         name: 'Kant',
+//         active: true,
+//         salary: 15000
+//     },
+//     {
+//         name: 'Phlex',
+//         active: true,
+//         salary: 20000
+//     },
+//     {
+//         name: 'Ola',
+//         active: true,
+//         salary: 20000
+//     },
+//     {
+//         name: 'Dan',
+//         active: false,
+//         salary: 20000
+//     },
+//     {
+//         name: 'Pere',
+//         active: false,
+//         salary: 18000
+//     },
+// ]
+
+
+// // for (let empindex of employees) {
+// //    document.write(`<br>Pay ${empindex.name} the amount of ${empindex.salary}'<br>'`)
+// // };
+
+// for (let empindex of employees) {
+//     if (empindex.active === false){continue}
+//     document.write(`<br>Pay ${empindex.name} the amount of ${empindex.salary} naira only'<br>'`)
+//  };
+
+
+
+//  let sms = 'qwertyuioplkjhgfdsaazxcvbnjmk'
+//  let length= sms.length;
+//  document.write(sms.length)
+
+
+
+//  let texts = "Apple, Banana, Kiwi";
+//  let part = texts.slice(7);
+//  document.write(part)
+
+
+//  let str = "Apple, Banana, Kiwi";
+//  let parts = str.substr(6);
+//  document.write(parts)
+
+//  let texty = "Please visit Hotmail!";
+//  let newText = texty.replace("Hotmail", "Gmail");
+//  document.write(newText)
+
+
+//  let text1 = "Hello World!";
+// let text2 = text1.toUpperCase();
+// document.write(text2)
+
+
+let yep = "Mr Daniel is a facilitator at the DSiHub";
+ let newYep = yep.replace("Daniel", "Epiphany");
+ document.write(newYep)
